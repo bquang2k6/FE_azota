@@ -17,7 +17,7 @@ const Login = ({ onLogin }) => {
         <div className="card-body">
           <h2 className="card-title text-2xl font-bold justify-center mb-4 text-primary">Azota Mini</h2>
           <p className="text-center opacity-70 mb-6">Vui lòng nhập tên của bạn để bắt đầu</p>
-          
+
           <form onSubmit={handleSubmit} className="space-y-4">
             <div className="form-control">
               <label className="label">
@@ -37,7 +37,7 @@ const Login = ({ onLogin }) => {
                 />
               </div>
             </div>
-            
+
             <button type="submit" className="btn btn-primary w-full gap-2 transition-all hover:scale-[1.02]">
               <LogIn size={20} />
               Bắt đầu
@@ -45,8 +45,8 @@ const Login = ({ onLogin }) => {
           </form>
 
           <div className="mt-8 text-xs text-center opacity-50 space-y-1">
-            <p>Admin: wantech</p>
-            <p>© 2024 Azota Mini Clone</p>
+            <p>Admin: Quang</p>
+            <p>© 20266 Azota fake</p>
           </div>
         </div>
       </div>
